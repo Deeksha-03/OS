@@ -78,7 +78,7 @@ void NonprePriority(int n){
     sum_burst_time += cput[i];
   }
 
-  cput1[9]=-1;
+  priority[9]=-1;
     while(sum < sum_burst_time)
    {
     hp = 9;
